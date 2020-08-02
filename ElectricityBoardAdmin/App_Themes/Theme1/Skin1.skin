@@ -1,0 +1,2 @@
+﻿<asp:TextBox SkinID="t1" placeholder="USERNAME" runat="server"></asp:TextBox>
+<asp:TextBox SkinID="t2" placeholder="PASSWORD" runat="server"></asp:TextBox>

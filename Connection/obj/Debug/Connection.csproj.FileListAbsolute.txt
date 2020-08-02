@@ -1,0 +1,5 @@
+C:\Users\HP\Desktop\IBM\Test\ElectricityBoardAdmin\Connection\bin\Debug\Connection.dll
+C:\Users\HP\Desktop\IBM\Test\ElectricityBoardAdmin\Connection\bin\Debug\Connection.pdb
+C:\Users\HP\Desktop\IBM\Test\ElectricityBoardAdmin\Connection\obj\Debug\Connection.dll
+C:\Users\HP\Desktop\IBM\Test\ElectricityBoardAdmin\Connection\obj\Debug\Connection.pdb
+C:\Users\HP\Desktop\IBM\Test\ElectricityBoardAdmin\Connection\obj\Debug\Connection.csprojAssemblyReference.cache

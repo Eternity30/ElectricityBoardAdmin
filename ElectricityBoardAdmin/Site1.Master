@@ -1,0 +1,138 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="ElectricityBoardAdmin.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <style>
+        /*@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');*/
+      html  {
+            position: relative;
+            min-height: 100%;
+        }
+        body {
+            margin: 0;
+            background: #222;
+            font-family: 'Work Sans', sans-serif;
+            font-weight: 800;
+            /*height: 100%;*/
+            /*min-height: 100%;*/
+             min-height: 400px;
+          margin-bottom: 100px;
+          clear: both;
+        }
+
+
+        /*.container {
+            width: 80%;
+            margin: 0 auto;
+        }*/
+
+        header {
+            background: #55d6aa;
+        }
+
+            header::after {
+                content: '';
+                display: table;
+                clear: both;
+            }
+
+        .logo {
+            float: left;
+            padding: 10px 0;
+        }
+
+        nav {
+            float: right;
+        }
+
+            nav ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+            }
+
+            nav li {
+                display: inline-block;
+                margin-left: 70px;
+                padding-top: 23px;
+                position: relative;
+            }
+
+            nav a {
+                color: #444;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 14px;
+            }
+
+                nav a:hover {
+                    color: #000;
+                }
+
+                nav a::before {
+                    content: '';
+                    display: block;
+                    height: 5px;
+                    background-color: #444;
+                    position: absolute;
+                    top: 0;
+                    width: 0%;
+                    transition: all ease-in-out 250ms;
+                }
+
+                nav a:hover::before {
+                    width: 100%;
+                }
+
+        .footer {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #55d6aa;
+            color: #444;
+            text-align: center;
+             overflow: hidden;
+        }
+        /*.footer,
+        .push {
+            height: 50px;
+        }*/
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    
+
+    <header>
+    <div class="container">
+      <h1 class="logo"></h1>
+
+      <nav>
+        <ul>
+          <li><a href="Home.aspx">HOME</a></li>
+          <li><a href="AdminReg.aspx">REGISTER</a></li>
+          <li><a href="Retrieved.aspx">RETRIEVE</a></li>
+          <li><a href="Logout.aspx">LOGOUT</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+        
+<div class="footer">
+  <p>Copyright © 2020 · PIONEER SOFTWARE · All Rights Reserved.</p>
+</div>
+
+</body>
+</html>
